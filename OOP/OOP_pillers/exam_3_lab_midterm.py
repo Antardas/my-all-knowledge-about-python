@@ -28,7 +28,7 @@ class Hall:
         for i in range(self.rows):
             row = []
             for j in range(self.cols):
-                row.append('free')
+                row.append(f'{chr(ord("@")+(i+1))}{j}')
             two_d_seat_list.append(row)
         self.__seats[id] = two_d_seat_list
 
