@@ -1,0 +1,6 @@
+{
+	// all Python files indented with 4 spaces
+	"[python]": {
+		"editor.tabSize": 4
+	}
+}

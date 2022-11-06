@@ -15,8 +15,9 @@ class Police(Human):
         super.__init__(gender, height, weight)
         self.cases = cases
         self.nationality = nationality
-
-
+    def speak():
+        pass
+    
 police = Police()
 
 
